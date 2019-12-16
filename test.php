@@ -1,3 +1,3 @@
 <?php
-$name="World";
-for($number=1;$number<10;$number++) echo "<h1>Hello $name!</h1>";
+$name=$_GET["name"];
+for($number=1;$number<7;$number++) echo "<h$number>Hello $name!</h$number>";
